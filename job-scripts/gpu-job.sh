@@ -1,12 +1,12 @@
 #! /bin/bash
 
 #SBATCH --mem=32G
-#SBATCH --nodes=1
+#SBATCH --nodes=2
 #SBATCH --ntasks-per-node=8
 #SBATCH --time=1:0:0    
 #SBATCH --mail-user=alirezashateri7@gmail.com
 #SBATCH --mail-type=ALL
-#SBATCH --gres=gpu:v100:2
+#SBATCH --gres=gpu:p100:2
 
 
 cd ~/$PROJECT/ComputeCanadaSample
