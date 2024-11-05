@@ -1,4 +1,4 @@
-import pytorch
+import torch
 
 
 print("Hello World!")
