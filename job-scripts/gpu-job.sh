@@ -14,4 +14,4 @@ module purge
 module load python/3.12.4 scipy-stack
 source ~/venv/bin/activate
 
-python main.py
+python cuda.py
